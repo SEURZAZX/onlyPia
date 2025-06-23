@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Untuk Pia ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background-gradient"></div>
+    <div class="container">
+      <div id="initialScreen" class="screen active">
+        <h1 class="initial-title">Hai, Pia!</h1>
+        <div id="heartIcon" class="heart-icon">❤️</div>
+        <p class="click-text">Klik Love ini untukmu</p>
+      </div>
+
+      <div id="messageScreen" class="screen hidden">
+        <h2 id="messageTitle" class="message-title">Pesan Manis Untuk Pia:</h2>
+        <p id="loveMessage" class="love-message"></p>
+        <div class="action-buttons">
+          <button id="showAnotherGombal" class="action-button">
+            Gombal Lagi dong! 😉
+          </button>
+        </div>
+        <button id="resetButton" class="reset-button hidden">
+          Ulang dari Awal
+        </button>
+      </div>
+    </div>
+
+    <div class="heart-particles-overlay" id="heartParticles"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
